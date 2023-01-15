@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class ="has-navbar-fixed-top" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, height = device-height">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="http://localhost:3000/fav">
+    <title>BlindFlags</title>
+    <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+  </head>
+  <body>
+    <nav class="navbar is-fixed-top has-shadow" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="http://localhost:3000/logo" height="20">
+        </a>
+      </div>
+    
+
+
+      </div>
+    </nav>
+    <div id="smart">
+    <nav class="level mt-0" id="prods">
+    <div class="card has-text-centered mt-5" id="info">
+      <p class="subtitle has-text-weight-bold mb-1">
+        Get a random flag today!
+      </p>
+      <p class="is-size-6 is-inline-block mt-1">
+        More than 200 country and regional flags in stock
+      </p>
+    </div>
+  </nav>
+</div>
+    <figure class="image mt-0" id="smart" >
+      <img src="https://wallpapercave.com/wp/wp2972402.jpg">
+    </figure>
+
+   
+
+  <div id="content">
+    
+    <div class="card has-text-centered mt-6" id="info2">
+      <p class="title has-text-weight-bold mb-4 mt-2">
+        Get a random flag today!
+      </p>
+      <p class="is-size-6 is-inline-block mt-1">
+        More than 200 country and regional flags in stock
+      </p>
+      <p class="is-size-6 is-inline-block mt-1">
+        Choose between 3 different sizes
+      </p>
+    </div>
+  
+    <nav class="level">
+      <div class="level-item has-text-centered">
+        <h1 class="title mt-6" id="size">Flag Sizes</h1>
+      </div>
+    </nav>
+
+    <nav class="level mb-6" id="prods">
+      <div class="card has-text-centered mt-0" id="small">
+        <div class="card-content">
+          <p class="subtitle has-text-weight-bold mb-4">
+            Basic
+          </p>
+          <figure class="image is-96x96 is-inline-block " id="small-img">
+            <img src="http://localhost:3000/small">
+          </figure>
+
+          <p class="is-size-7 is-inline-block mt-5">
+            1 in 200+ Country and regional flags 
+          </p>
+          <p class=" is-size-7 mb-2">
+            15€/flag
+          </p>
+
+          <a href="https://buy.stripe.com/4gwdUR0PK5PbcAo8ww"> <button class="button is-success mt-4 " id="basicButton" > Buy now!</button></a> 
+        </div>
+      </div>
+
+      <div class="card has-text-centered" id="medium">
+        <div class="card-content">
+          <p class="subtitle has-text-weight-bold mb-4">
+            Premium
+          </p>
+          <figure class="image is-96x96  is-inline-block">
+            <img src="http://localhost:3000/medium">
+          </figure>
+          
+          <p class="is-size-7 is-inline-block mt-5">
+            1 in 100+ Country and regional flags 
+          </p>
+          <p class=" is-size-7 mb-2">
+            20€/flag
+          </p>
+
+          <a href="https://buy.stripe.com/28o6sp7e83H30RG5kl">
+          <button class="button is-info mt-4" id="premButton">Buy now!</button>
+        </a>
+        </div>
+      </div>
+
+      <div class="card has-text-centered " id="big">
+        <div class="card-content">
+          <p class="subtitle has-text-weight-bold mb-4">
+            Imperial
+          </p>
+          <figure class="image  is-96x96 is-inline-block ">
+            <img src="http://localhost:3000/big">
+          </figure>
+          
+          <p class="is-size-7 is-inline-block mt-5">
+            1 in 70+ Country and regional flags 
+          </p>
+          <p class=" is-size-7 mb-2">
+            35€/flag
+          </p>
+          <a href="https://buy.stripe.com/00gbMJ41Wb9v9oc7su">
+          <button class="button is-warning mt-4" id="impButton">Buy now!</button>
+        </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+    <figure class="image mt-0" id="desk" >
+      <img src="https://wallpapercave.com/wp/wp2972402.jpg">
+    </figure>
+
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+
+       
+
+        <p>
+          Mail: <a > info@blindflags.com </a> 
+          </p>
+          <p>
+          Tel: +39 06 347 194 6136
+        </p>
+        <p>
+          <strong>BlindFlags </strong> 
+        </p>
+        <p>
+          Copyright ©2023 by BlindFlags
+        </p>
+        <p>
+          For tracking inquiries or complaints please write us an email, we'll get back to you as soon as possible!
+
+          </p>
+          <p>
+            Currently only shipping  to Europe, US and Canada
+  
+            </p>
+      </div>
+    </footer>
+	
+  </body>
+
+  <style>
+    #desk{
+      display: none;
+    }
+    #basicButton{
+      background-color: #082946;
+    }
+
+    #premButton{
+      background-color: rgb(148, 148, 148);
+    }
+
+    #impButton{
+      background-color: rgb(253, 206, 50);
+    }
+    #info{
+      position:absolute;
+      z-index: 3;
+      background-color: rgba(255, 255, 255, 0.897);
+      border: none;
+      padding: 3vh;
+      margin-top: 5vh;
+      max-width: fit-content;
+    }
+
+    #info2{
+      display: none;
+      position:absolute;
+      margin-bottom: 4vh;
+      z-index: 3;
+      background-color: rgba(255, 255, 255, 0.897);
+      border: none;
+      padding: 3vh;
+      margin-top: 5vh;
+      max-width: fit-content;
+    }
+
+    .footer{
+      font-size: 3vw;
+    }
+    .navbar-item img{
+      height: 7vw;
+      max-height: 100vw;
+    }
+
+    #prods{
+      display: flex;
+      flex-direction: column;
+    }
+
+    
+
+    .card{
+      display: flex;
+      flex-direction: column;
+      max-width: 26vh;
+      margin : 2vw;
+      margin-top: 3vw;
+      border-radius: 3vw;
+      border-style: solid;
+      border-width: 1vw;
+      border-color: #151f28;
+      padding: 0px;
+    }
+
+     #medium{
+      border-color: silver;
+    }
+
+    #big{
+      border-color: gold;
+    }
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .navbar-item img{
+      height: 11vw;
+      max-height: 100vw;
+    }
+  }
+    @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px)  {
+      body{
+        display: flex;
+        flex-direction: column;
+        
+       
+      }
+
+      #info2{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        min-width: 50vw;
+        min-height: 20vh;
+      }
+
+      #content{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        justify-content: center;
+      }
+
+
+      #desk{
+        display: block;
+      } 
+      #smart{
+        display: none;
+      }
+
+      #medium{
+        margin-top: 0px;
+      }
+      #big{
+        margin-top: 0px;
+      }
+
+    .navbar-item img{
+      height: 5vw;
+      max-height: 100vw;
+    }
+
+    #size{
+      display: none;
+    }
+    #content{
+      position:absolute;
+        
+        z-index: 3;
+    }
+      #prods{
+        
+        flex-direction: row;
+        padding-left: 12vw;
+        padding-right: 12vw;
+      }
+      
+    .card{
+      display: flex;
+      flex-direction: column;
+      max-width: 32vh;
+      
+      border-radius: 2vh;
+      border-style: solid;
+      border-width: 0.5vh;
+      border-color: #151f28;
+      padding: 0px;
+    }
+
+    .footer{
+      font-size: small;
+    }
+
+  }
+
+
+  </style>
+
+  <script>
+
+
+  </script>
+</html>
